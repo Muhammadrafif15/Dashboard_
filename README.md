@@ -3,14 +3,9 @@
 ## 📖 Project Overview
 An end-to-end data analysis project to uncover insights into sales performance, customer behavior, and operational efficiency for a multi-year e-commerce dataset. The goal was to identify key drivers of profitability and provide actionable recommendations.
 
-## 🎯 Business Objectives
-- Identify top-performing products and categories by revenue and profit margin.
-- Analyze customer segments to understand lifetime value and purchasing behavior.
-- Monitor key operational metrics like return rates and shipping times.
-
 ## 🛠️ Tools & Technologies
 - **Data Visualization:** Google Looker Studio
-- **Data Processing & ETL:** SQL, Google BigQuery
+- **Data Processing & ETL:** SQL, Google BigQuery, DAX, LookML
 - **Data Wrangling:** Microsoft Excel (Power Query)
 
 ## Dashboard-dashboard
@@ -36,6 +31,8 @@ This report summarizes the performance of a Google Ads campaign for November 202
 ![Link Dashboard](https://lookerstudio.google.com/reporting/1a36ad52-681b-4eae-94e7-6924ff2c7c1d/page/nCidF)
 
 ![Link PPT](Google_ADS/Google_ADS_Presentation.pptx)
+
+![PDF](Google_ADS/Google_Ads_Data_Analytics_1-1.pdf)
 
 ### The Look E-Commerce Analysis
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
