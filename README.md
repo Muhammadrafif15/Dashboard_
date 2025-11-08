@@ -27,11 +27,13 @@ This dashboard provides a performance overview of sales and customers between 20
 This presentation provides a comprehensive sales overview of an e-commerce platform from September 2016 to August 2018. Key metrics include a total revenue of R$1.54 billion , 96,461 total orders , and 99,441 customers. The analysis shows a significant upward trend in monthly revenue over this period. Geographically, Sao Paulo is the highest-performing city in terms of both revenue and order volume. The report also delves into customer analysis, payment methods, and product category performance. The primary payment method used by customers is the credit card
 
 ### Google Ads Performance Summary (November 2024)
-![Dashboard Overview](Google_ADS/google_ads_dash_1.png)
+![Dashboard Overview](Google_ADS/Dashboard_Google_ads_1.png)
 
 This report summarizes the performance of a Google Ads campaign for November 2024. The campaign incurred a total cost of $33.4 million to generate 110,940 conversions and over 2.3 million clicks , resulting in an average Cost Per Acquisition (CPA) of $690.47. Performance is broken down by device type, with traffic distributed almost evenly across Desktop (34.7%), Mobile (33.6%), and Tablet (31.6%). The analysis also identifies the top-performing keywords by cost and provides a detailed table of individual ad performance, including metrics like CTR and conversion rate.
 
 ![Link Dashboard](https://lookerstudio.google.com/reporting/1a36ad52-681b-4eae-94e7-6924ff2c7c1d/page/nCidF)
+
+![Link PPT](Google_ADS/Google_ADS_Presentation.pptx)
 
 ### The Look E-Commerce Analysis
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
