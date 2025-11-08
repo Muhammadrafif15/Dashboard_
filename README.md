@@ -19,6 +19,8 @@ An end-to-end data analysis project to uncover insights into sales performance, 
 
 This dashboard provides a performance overview of sales and customers between 2022 and 2025. It reports a total revenue of $1,339,607 and 10,000 total orders. The analysis tracks performance by year, showing the highest revenue in 2023 , and also breaks down orders by quarter. Monthly revenue trends are visualized to identify seasonal patterns. The report highlights the top 10 customers and top 10 products by sales, identifying key contributors to revenue.
 
+![PDF](Customer_and_Sales/Sales_and_Customer_Report.pdf)
+
 ### E-Commerce Sales Analysis
 ![Dashboard Overview](E-Commerce/dasboard_ecommerce_1.png)
 
@@ -48,8 +50,10 @@ This is a detailed, multi-page analysis of "The Look" e-commerce platform. The e
 
 This dashboard presents an analysis of pizza sales for the year 2015. It summarizes key performance indicators, including a total revenue of $817,860 , 48,620 orders , and 21,350 customers. The analysis breaks down performance by pizza type, category, and size, revealing that the "Classic" category and Large ("L") size are the most popular. The Classic Deluxe Pizza is one of the most frequently ordered items. A monthly revenue trend chart shows fluctuations throughout the year, with performance peaking in July. The report also identifies top customers based on their purchasing behavior.
 
+![PDF](Pizza_Sales/Pizza_Analyst_report.pdf)
+
 ### Superstore Sales Analysis
 ![Dashboard Overview](Superstore/dasboard_superstore_sales_1.png)
 
 This presentation analyzes the performance of a superstore, which generated total sales of $1.1 billion from 4,922 orders. The analysis breaks down sales by multiple dimensions. The "Consumer" segment accounts for the majority of sales (53.21%) , and "Furniture" is the highest-selling category (48.7%). Geographically, California ($242.8M) and Texas ($228.8M) are the top-performing states. The dashboard also identifies top customers by sales volume, with Anna Gayman leading the list. Sales trends are visualized over time by quarter and year.
----
+
