@@ -19,8 +19,6 @@ An end-to-end data analysis project to uncover insights into sales performance, 
 
 This dashboard provides a performance overview of sales and customers between 2022 and 2025. It reports a total revenue of $1,339,607 and 10,000 total orders. The analysis tracks performance by year, showing the highest revenue in 2023 , and also breaks down orders by quarter. Monthly revenue trends are visualized to identify seasonal patterns. The report highlights the top 10 customers and top 10 products by sales, identifying key contributors to revenue.
 
-
-
 ### E-Commerce Sales Analysis
 ![Dashboard Overview](E-Commerce/dasboard_ecommerce_1.png)
 
@@ -42,6 +40,8 @@ This is a detailed, multi-page analysis of "The Look" e-commerce platform. The e
 - Product & Sales: Examines profit and revenue distribution across categories, with a total of 181,249 units sold.
 - Customer Deep Dive: Explores user demographics, lifetime value, and acquisition channels, revealing that "Search" is the primary traffic source.
 - Order & Fulfillment: Details the order lifecycle, showing a 10.07% return rate and breaking down order statuses (e.g., Shipped, Complete, Returned).
+
+![PDF](Look_Ecommerce/The_Look_E-Commerce.pdf)
 
 ### Pizza Sales 2015
 ![Dashboard Overview](Pizza_Sales/dasboard_pizza_sales_1.png)
