@@ -1,60 +1,92 @@
-# Dashboard
+## Interactive Multi-Industry BI Suite: Executive Analytics & Growth Tracker
 
-## 📖 Project Overview
-An end-to-end data analysis project to uncover insights into sales performance, customer behavior, and operational efficiency for a multi-year e-commerce dataset. The goal was to identify key drivers of profitability and provide actionable recommendations.
+![Dashboard Overview](Retail_Report/page_1.jpg)
+![Dashboard Overview](Retail_Report/page_2.jpg)
 
-## 🛠️ Tools & Technologies
-- **Data Visualization:** Google Looker Studio
-- **Data Processing & ETL:** SQL, Google BigQuery, DAX, LookML
-- **Data Wrangling:** Microsoft Excel (Power Query)
+Overview: Portofolio ini menampilkan kemampuan saya dalam membangun ekosistem Business Intelligence (BI) yang mengubah data mentah menjadi narasi strategis. Saya menghadirkan visualisasi yang tidak hanya estetis (Modern Dark Mode & Professional Light Mode), tetapi juga berfokus pada pemecahan masalah bisnis nyata di sektor Retail, E-commerce, dan F&B.
 
-## Dashboard-dashboard
-### Customer & Sales Dashboard
-![Dashboard Overview](Customer_and_Sales/dasboard_customer_sales_2.png)
+Highlight Analisis & Fitur Utama:
 
-This dashboard provides a performance overview of sales and customers between 2022 and 2025. It reports a total revenue of $1,339,607 and 10,000 total orders. The analysis tracks performance by year, showing the highest revenue in 2023 , and also breaks down orders by quarter. Monthly revenue trends are visualized to identify seasonal patterns. The report highlights the top 10 customers and top 10 products by sales, identifying key contributors to revenue.
+  - Strategic Sales & Financial Intelligence: Mengelola dataset besar dengan pendapatan hingga $243M (Retail) dan R$ 41M (Global E-commerce). Dilengkapi dengan pelacakan pertumbuhan YoY (14.95% Margin) dan MoM (+18.1% Revenue).
+  - Advanced Customer Behavior: Analisis mendalam terhadap Churn Rate (46.21%), segmentasi pelanggan (High, Mid, Low Value), dan identifikasi pelanggan bernilai tinggi untuk meningkatkan retensi.
+  - Operational & Logistics Excellence: Visualisasi efisiensi pengiriman (rata-rata 4.04 hari) dan analisis performa per Seller ID serta wilayah geografis di 272 kota.
+  - Actionable Narrative Insights: Fitur unggulan berupa Narrative Box dan Summary Sections yang merangkum tren emas (Peak Season) dan memberikan peringatan kritis (Critical Alert) untuk evaluasi strategi harga.
+  - Specific Industry Deep-Dives: Dashboard khusus untuk Pizza Retail yang melacak korelasi ukuran produk, kategori popularitas, dan frekuensi pesanan.
 
-![PDF](Customer_and_Sales/Sales_and_Customer_Report.pdf)
+The Solution: Solusi yang saya tawarkan memberikan kontrol penuh kepada stakeholder melalui slicer interaktif, memungkinkan mereka melakukan drill-down dari gambaran eksekutif hingga detail transaksi terkecil secara instan.
 
-### E-Commerce Sales Analysis
-![Dashboard Overview](E-Commerce/dasboard_ecommerce_1.png)
+## Interactive Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)
 
-This presentation provides a comprehensive sales overview of an e-commerce platform from September 2016 to August 2018. Key metrics include a total revenue of R$1.54 billion , 96,461 total orders , and 99,441 customers. The analysis shows a significant upward trend in monthly revenue over this period. Geographically, Sao Paulo is the highest-performing city in terms of both revenue and order volume. The report also delves into customer analysis, payment methods, and product category performance. The primary payment method used by customers is the credit card
+![Dashboard Overview](Sales_Report/page_1.png)
+![Dashboard Overview](Sales_Report/page_2.png)
 
-![PDF](E-Commerce/Brazzilian_E-Commerce_Public.pdf)
+Overview: Saya mengembangkan rangkaian solusi Business Intelligence (BI) komprehensif yang dirancang untuk mengubah data mentah menjadi narasi strategis bagi para eksekutif. Portofolio ini menampilkan kemampuan saya dalam menangani dataset besar dan memberikan visualisasi yang matang dalam format Professional Light Mode dan Modern Dark Mode UI.
 
-### Google Ads Performance Summary (November 2024)
-![Dashboard Overview](Google_ADS/Dashboard_Google_ads_1.png)
+Highlight Analisis & Fitur Utama:
 
-This report summarizes the performance of a Google Ads campaign for November 2024. The campaign incurred a total cost of $33.4 million to generate 110,940 conversions and over 2.3 million clicks , resulting in an average Cost Per Acquisition (CPA) of $690.47. Performance is broken down by device type, with traffic distributed almost evenly across Desktop (34.7%), Mobile (33.6%), and Tablet (31.6%). The analysis also identifies the top-performing keywords by cost and provides a detailed table of individual ad performance, including metrics like CTR and conversion rate.
+  - Strategic Sales Intelligence: Mengelola dataset dengan pendapatan hingga $243M (Retail) dan R$ 41M (E-commerce Internasional), lengkap dengan pelacakan pertumbuhan bulanan hingga +18.1%.
+  - Advanced Customer Behavior: Analisis teknis mendalam terhadap Churn Rate (46.21%) dan segmentasi pelanggan (High, Mid, Low Value).
+  - Executive Performance Suite: Dashboard khusus yang melacak Average Margin (9.45%), total biaya, dan keuntungan dengan indikator perbandingan bulan sebelumnya (Vs Last Month).
+  - Actionable Narrative Summaries: Penggunaan fitur Narrative Box dan Summary Sections untuk memberikan rekomendasi otomatis berdasarkan data, seperti peringatan penurunan margin pada kategori produk tertentu.
+  - Niche Industry Analytics: Solusi spesifik untuk sektor Food & Beverage (Pizza Sales) yang melacak 3,819 pesanan dan korelasi popularitas antara ukuran serta kategori produk.
 
-![Link Dashboard](https://lookerstudio.google.com/reporting/1a36ad52-681b-4eae-94e7-6924ff2c7c1d/page/nCidF)
+The Solution: Setiap laporan memberikan kontrol penuh melalui slicer interaktif (Tahun, Bulan, Wilayah, Kategori), memungkinkan drill-down instan dari ringkasan eksekutif hingga detail transaksi.
 
-![Link PPT](Google_ADS/Google_ADS_Presentation.pptx)
+## Interactive Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)
 
-![PDF](Google_ADS/Google_Ads_Data_Analytics_1-1.pdf)
+![Dashboard Overview](E-Commerce/Page1-Revisi.png)
+![Dashboard Overview](E-Commerce/Page1-Revisi_Light.png)
 
-### The Look E-Commerce Analysis
-![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
+Overview: I developed a high-end Business Intelligence suite designed to transform fragmented raw data into strategic executive insights. This portfolio showcases versatility in design (Modern Dark Mode vs. Professional Light Mode) and depth in analytical modeling across Retail, E-commerce, and F&B sectors.
 
-This is a detailed, multi-page analysis of "The Look" e-commerce platform. The executive overview highlights key metrics such as $29 million in revenue , $13.9 million in profit , a 48.10% profit margin , and 100,000 total users. The analysis is divided into sections:
-- Product & Sales: Examines profit and revenue distribution across categories, with a total of 181,249 units sold.
-- Customer Deep Dive: Explores user demographics, lifetime value, and acquisition channels, revealing that "Search" is the primary traffic source.
-- Order & Fulfillment: Details the order lifecycle, showing a 10.07% return rate and breaking down order statuses (e.g., Shipped, Complete, Returned).
+Key Analytical Pillars:
+  - Strategic Sales & Growth: Managed datasets tracking up to $243M in revenue, featuring year-over-year growth metrics (e.g., +18.1% revenue increase) and monthly trend forecasting.
+  - Customer Intelligence & Retention: Developed advanced churn analysis (identifying a 46.21% churn rate) and customer segmentation (High-Value vs. Low-Value).
+  - Geographic & Logistics Analysis: Mapped sales performance across 272 cities and tracked shipping efficiency (average duration of 4.04 days).
+  - Niche Industry Deep-Dives: Tailored dashboards for specific sectors like Pizza Retail, tracking 3,819 total orders and product-size correlations, as well as E-commerce ID-level tracking with review scores.
 
-![PDF](Look_Ecommerce/The_Look_E-Commerce.pdf)
+The Solution: My dashboards empower stakeholders with interactive filtering by Year, Month, Country, and Category, enabling localized decision-making and inventory optimization.
 
-### Pizza Sales 2015
-![Dashboard Overview](Pizza_Sales/dasboard_pizza_sales_1.png)
+## Interactive Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)
 
-This dashboard presents an analysis of pizza sales for the year 2015. It summarizes key performance indicators, including a total revenue of $817,860 , 48,620 orders , and 21,350 customers. The analysis breaks down performance by pizza type, category, and size, revealing that the "Classic" category and Large ("L") size are the most popular. The Classic Deluxe Pizza is one of the most frequently ordered items. A monthly revenue trend chart shows fluctuations throughout the year, with performance peaking in July. The report also identifies top customers based on their purchasing behavior.
+![Dashboard Overview](Pizza_Sales/Page_1-Revisi.png)
+![Dashboard Overview](Pizza_Sales/Page_2-Revisi.png)
 
-![PDF](Pizza_Sales/Pizza_Analyst_report.pdf)
+Overview: I created a comprehensive business intelligence solution for a pizza retail business to track annual performance and customer behavior. This project transforms thousands of transaction rows into two high-impact visual reports.
 
-### Superstore Sales Analysis
-![Dashboard Overview](Superstore/dasboard_superstore_sales_1.png)
+Key Analytical Features:
+  - Sales Intelligence (Report 1): Tracks $64,180 in Total Revenue and 3,819 Total Orders. It features trend analysis to monitor daily revenue fluctuations and identifies The Classic Deluxe Pizza as the top-selling product.
+  - Performance & Segmentation (Report 2): Deep-dive into order sizes and categories. Analysis shows that Large (L) size pizzas are the most preferred, with 1,481 orders.
+  - Customer Tracking: Identified top-performing customers by sales value (e.g., id_14938 with $254) and analyzed the correlation between pizza categories (Classic, Veggie, Chicken, Supreme) and sizes.
+  - Operational Metrics: Tracks Average Order Value ($16.81) to help the business optimize pricing and promotional strategies.
 
-This presentation analyzes the performance of a superstore, which generated total sales of $1.1 billion from 4,922 orders. The analysis breaks down sales by multiple dimensions. The "Consumer" segment accounts for the majority of sales (53.21%) , and "Furniture" is the highest-selling category (48.7%). Geographically, California ($242.8M) and Texas ($228.8M) are the top-performing states. The dashboard also identifies top customers by sales volume, with Anna Gayman leading the list. Sales trends are visualized over time by quarter and year.
+The Result: This interactive dashboard allows the owner to filter data by month, pizza name, size, and category, providing a clear roadmap to increase sales and optimize inventory.
 
-![PDF](Superstore/Supermarket_sales_analyst.pdf)
+## Interactive Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)
 
+![Dashboard Overview](Customer_and_Sales/Page1-Revisi.png)
+![Dashboard Overview](Customer_and_Sales/Page2-Revisi.png)
+
+Overview: I designed and developed a high-performance business intelligence suite featuring both light and dark themed interactive dashboards. This project translates complex transactional data into strategic insights for executive decision-making.
+
+Key Analytical Features:
+  - Sales Performance & Growth: Tracking $243M in Total Revenue across 272 cities, identifying Texas as a top-performing state with $61M in sales.
+  - Customer Behavior & Retention: Deep-dive analysis into a 46.21% Churn Rate, mapping at-risk customers by city and category to improve loyalty programs.
+  - Dark Mode Executive Dashboard: A modern UI approach for 2025 performance tracking, featuring monthly growth trends (e.g., +18.1% Revenue increase) and segment concentration analysis.
+  - Operational Efficiency: Monitoring logistics through Average Ship Duration (4.04 days) to optimize supply chain performance.
+
+The Result: This suite allows stakeholders to toggle between high-level summaries and granular details (Year, Month, Country, and Segment), providing a clear roadmap for revenue growth and customer retention.
+
+## Interactive Sales & Customer Behavior Analytics Dashboard  (supermarket sales)
+
+![Dashboard Overview](Superstore/Page_1-revisi.png)
+![Dashboard Overview](Superstore/Page_2-revisi.png)
+
+Overview: I developed a dual-page interactive dashboard to provide a 360-degree view of retail performance. This project focuses on two core pillars: Financial Growth and Customer Retention.
+
+Key Features & Insights:
+  - Sales Performance (Dashboard 1): Tracks $243M Total Revenue across 272 cities. It features geographic heatmaps (Texas as the top state with $61M) and product category deep-dives (Bookcases leading at $64M).
+  - Customer Intelligence (Dashboard 2): Analyzes a 46.21% Churn Rate to help businesses identify at-risk segments. It includes "New Customer Growth" tracking and identifies high-value clients like Amy Hunt ($13.5M).
+  - Operational Metrics: Monitors average shipping durations (4.04 days) and identifies the most used shipping modes to optimize logistics.
+
+The Solution: I transformed raw transactional data into actionable insights using advanced DAX/Calculated Fields, ensuring the client can filter data by Year, State, and City to make localized strategic decisions.
