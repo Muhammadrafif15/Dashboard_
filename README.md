@@ -3,14 +3,9 @@
 ## 📖 Project Overview
 An end-to-end data analysis project to uncover insights into sales performance, customer behavior, and operational efficiency for a multi-year e-commerce dataset. The goal was to identify key drivers of profitability and provide actionable recommendations.
 
-## 🎯 Business Objectives
-- Identify top-performing products and categories by revenue and profit margin.
-- Analyze customer segments to understand lifetime value and purchasing behavior.
-- Monitor key operational metrics like return rates and shipping times.
-
 ## 🛠️ Tools & Technologies
 - **Data Visualization:** Google Looker Studio
-- **Data Processing & ETL:** SQL, Google BigQuery
+- **Data Processing & ETL:** SQL, Google BigQuery, DAX, LookML
 - **Data Wrangling:** Microsoft Excel (Power Query)
 
 ## Dashboard-dashboard
@@ -26,6 +21,8 @@ This dashboard provides a performance overview of sales and customers between 20
 
 This presentation provides a comprehensive sales overview of an e-commerce platform from September 2016 to August 2018. Key metrics include a total revenue of R$1.54 billion , 96,461 total orders , and 99,441 customers. The analysis shows a significant upward trend in monthly revenue over this period. Geographically, Sao Paulo is the highest-performing city in terms of both revenue and order volume. The report also delves into customer analysis, payment methods, and product category performance. The primary payment method used by customers is the credit card
 
+![PDF](E-Commerce/Brazzilian_E-Commerce_Public.pdf)
+
 ### Google Ads Performance Summary (November 2024)
 ![Dashboard Overview](Google_ADS/Dashboard_Google_ads_1.png)
 
@@ -34,6 +31,8 @@ This report summarizes the performance of a Google Ads campaign for November 202
 ![Link Dashboard](https://lookerstudio.google.com/reporting/1a36ad52-681b-4eae-94e7-6924ff2c7c1d/page/nCidF)
 
 ![Link PPT](Google_ADS/Google_ADS_Presentation.pptx)
+
+![PDF](Google_ADS/Google_Ads_Data_Analytics_1-1.pdf)
 
 ### The Look E-Commerce Analysis
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
@@ -56,4 +55,6 @@ This dashboard presents an analysis of pizza sales for the year 2015. It summari
 ![Dashboard Overview](Superstore/dasboard_superstore_sales_1.png)
 
 This presentation analyzes the performance of a superstore, which generated total sales of $1.1 billion from 4,922 orders. The analysis breaks down sales by multiple dimensions. The "Consumer" segment accounts for the majority of sales (53.21%) , and "Furniture" is the highest-selling category (48.7%). Geographically, California ($242.8M) and Texas ($228.8M) are the top-performing states. The dashboard also identifies top customers by sales volume, with Anna Gayman leading the list. Sales trends are visualized over time by quarter and year.
+
+![PDF](Superstore/Supermarket_sales_analyst.pdf)
 
