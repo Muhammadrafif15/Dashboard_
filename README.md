@@ -1,50 +1,3 @@
-## Interactive Multi-Industry BI Suite: Executive Analytics & Growth Tracker
-
-![Dashboard Overview](Retail_Report/page_1_rev_2.png)
-![Dashboard Overview](Retail_Report/page_2_rev_2.png)
-Analisis Performa Bisnis - Mei 2016 📊
-
-Dashboard menunjukkan tren positif dengan kenaikan Revenue MoM sebesar $37.3K dan Margin tumbuh 3.80%. Berikut insight utamanya:
-
-  - Performa: Total pendapatan mencapai $64,769 dengan Sydney sebagai kota paling menguntungkan dengan profit $6,067.74.
-  - Dominasi: Office Supplies menyumbang 67.13% pendapatan, namun mencatat total diskon tinggi (445%) yang memicu "Profit Gap" atau ketidakseimbangan antara omzet dan laba.
-  - Logistik: Tercatat 131 transaksi dengan ATV $494. Metode Regular Air mendominasi dengan 114 transaksi.
-  - Alert: Kategori Furniture menunjukkan tren penurunan konsisten, memerlukan evaluasi strategi harga segera.
-
-Kesimpulan: Pertumbuhan volume harus diimbangi efisiensi diskon untuk menjaga profitabilitas.
-
-## Interactive Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)
-
-![Dashboard Overview](Sales_Report/page_1_rev.png)
-![Dashboard Overview](Sales_Report/page_2_rev.png)
-
-Analisis Performa Eksekutif & Penjualan - November 2016 📊
-
-Meskipun Revenue bulan ini mencapai $5M (turun $1.6M MoM), terdapat peningkatan efisiensi operasional yang signifikan. Berikut insight utamanya:
-
-  - Peningkatan Margin: Average Margin naik 2.34% menjadi 11.25%, menunjukkan kontrol biaya yang lebih baik meskipun volume pendapatan menurun.
-  - Dominasi Produk: Kategori Clothing menjadi kontributor terbesar dengan pendapatan $1,422,637 dan volume penjualan tertinggi (601 unit).
-  - Perilaku Pelanggan: Pelanggan Returning (1,179) menghasilkan nilai penjualan lebih tinggi dibandingkan pelanggan baru, mempertegas pentingnya strategi retensi.
-  - Kanal & Pembayaran: Penjualan Retail mendominasi (60.17%) dengan Bank Transfer sebagai metode pembayaran terfavorit (858 transaksi).
-  - Geografis: Wilayah East memimpin performa penjualan, sementara wilayah South memerlukan perhatian khusus karena selisih performa yang cukup jauh.
-
-Kesimpulan: Fokus pada kategori profitabel dan efisiensi biaya berhasil menjaga kesehatan margin di tengah fluktuasi pasar.
-
-## Interactive Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)
-
-![Dashboard Overview](E-Commerce/Page1-Revisi.png)
-![Dashboard Overview](E-Commerce/Page1-Revisi_Light.png)
-
-Overview: I developed a high-end Business Intelligence suite designed to transform fragmented raw data into strategic executive insights. This portfolio showcases versatility in design (Modern Dark Mode vs. Professional Light Mode) and depth in analytical modeling across Retail, E-commerce, and F&B sectors.
-
-Key Analytical Pillars:
-  - Strategic Sales & Growth: Managed datasets tracking up to $243M in revenue, featuring year-over-year growth metrics (e.g., +18.1% revenue increase) and monthly trend forecasting.
-  - Customer Intelligence & Retention: Developed advanced churn analysis (identifying a 46.21% churn rate) and customer segmentation (High-Value vs. Low-Value).
-  - Geographic & Logistics Analysis: Mapped sales performance across 272 cities and tracked shipping efficiency (average duration of 4.04 days).
-  - Niche Industry Deep-Dives: Tailored dashboards for specific sectors like Pizza Retail, tracking 3,819 total orders and product-size correlations, as well as E-commerce ID-level tracking with review scores.
-
-The Solution: My dashboards empower stakeholders with interactive filtering by Year, Month, Country, and Category, enabling localized decision-making and inventory optimization.
-
 ## Interactive Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)
 
 ![Dashboard Overview](Pizza_Sales/Page_1-Revisi.png)
@@ -93,3 +46,51 @@ Insight Utama Pada Gambar:
   - Fokus VIP: Konsentrasi pendapatan pada pelanggan kunci sangat tinggi, seperti Amy Hunt yang berkontribusi $13.5M.
 
 Kesimpulan: Diperlukan strategi retensi khusus di kota besar untuk menekan churn tanpa mengganggu pertumbuhan masif di sektor Furniture.
+## Interactive Multi-Industry BI Suite: Executive Analytics & Growth Tracker
+
+![Dashboard Overview](Retail_Report/page_1_rev_2.png)
+![Dashboard Overview](Retail_Report/page_2_rev_2.png)
+Analisis Performa Bisnis - Mei 2016 📊
+
+Dashboard menunjukkan tren positif dengan kenaikan Revenue MoM sebesar $37.3K dan Margin tumbuh 3.80%. Berikut insight utamanya:
+
+  - Performa: Total pendapatan mencapai $64,769 dengan Sydney sebagai kota paling menguntungkan dengan profit $6,067.74.
+  - Dominasi: Office Supplies menyumbang 67.13% pendapatan, namun mencatat total diskon tinggi (445%) yang memicu "Profit Gap" atau ketidakseimbangan antara omzet dan laba.
+  - Logistik: Tercatat 131 transaksi dengan ATV $494. Metode Regular Air mendominasi dengan 114 transaksi.
+  - Alert: Kategori Furniture menunjukkan tren penurunan konsisten, memerlukan evaluasi strategi harga segera.
+
+Kesimpulan: Pertumbuhan volume harus diimbangi efisiensi diskon untuk menjaga profitabilitas.
+
+## Interactive Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)
+
+![Dashboard Overview](Sales_Report/page_1_rev.png)
+![Dashboard Overview](Sales_Report/page_2_rev.png)
+
+Analisis Performa Eksekutif & Penjualan - November 2016 📊
+
+Meskipun Revenue bulan ini mencapai $5M (turun $1.6M MoM), terdapat peningkatan efisiensi operasional yang signifikan. Berikut insight utamanya:
+
+  - Peningkatan Margin: Average Margin naik 2.34% menjadi 11.25%, menunjukkan kontrol biaya yang lebih baik meskipun volume pendapatan menurun.
+  - Dominasi Produk: Kategori Clothing menjadi kontributor terbesar dengan pendapatan $1,422,637 dan volume penjualan tertinggi (601 unit).
+  - Perilaku Pelanggan: Pelanggan Returning (1,179) menghasilkan nilai penjualan lebih tinggi dibandingkan pelanggan baru, mempertegas pentingnya strategi retensi.
+  - Kanal & Pembayaran: Penjualan Retail mendominasi (60.17%) dengan Bank Transfer sebagai metode pembayaran terfavorit (858 transaksi).
+  - Geografis: Wilayah East memimpin performa penjualan, sementara wilayah South memerlukan perhatian khusus karena selisih performa yang cukup jauh.
+
+Kesimpulan: Fokus pada kategori profitabel dan efisiensi biaya berhasil menjaga kesehatan margin di tengah fluktuasi pasar.
+
+## Interactive Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)
+
+![Dashboard Overview](E-Commerce/Page1-Revisi.png)
+![Dashboard Overview](E-Commerce/Page1-Revisi_Light.png)
+
+Overview: I developed a high-end Business Intelligence suite designed to transform fragmented raw data into strategic executive insights. This portfolio showcases versatility in design (Modern Dark Mode vs. Professional Light Mode) and depth in analytical modeling across Retail, E-commerce, and F&B sectors.
+
+Key Analytical Pillars:
+  - Strategic Sales & Growth: Managed datasets tracking up to $243M in revenue, featuring year-over-year growth metrics (e.g., +18.1% revenue increase) and monthly trend forecasting.
+  - Customer Intelligence & Retention: Developed advanced churn analysis (identifying a 46.21% churn rate) and customer segmentation (High-Value vs. Low-Value).
+  - Geographic & Logistics Analysis: Mapped sales performance across 272 cities and tracked shipping efficiency (average duration of 4.04 days).
+  - Niche Industry Deep-Dives: Tailored dashboards for specific sectors like Pizza Retail, tracking 3,819 total orders and product-size correlations, as well as E-commerce ID-level tracking with review scores.
+
+The Solution: My dashboards empower stakeholders with interactive filtering by Year, Month, Country, and Category, enabling localized decision-making and inventory optimization.
+
+
