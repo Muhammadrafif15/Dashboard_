@@ -1,5 +1,8 @@
 ## Interactive Multi-Industry BI Suite: Executive Analytics & Growth Tracker
 
+![Dashboard Overview](Retail_Report/page_1.jpg)
+![Dashboard Overview](Retail_Report/page_2.jpg)
+
 Overview: Portofolio ini menampilkan kemampuan saya dalam membangun ekosistem Business Intelligence (BI) yang mengubah data mentah menjadi narasi strategis. Saya menghadirkan visualisasi yang tidak hanya estetis (Modern Dark Mode & Professional Light Mode), tetapi juga berfokus pada pemecahan masalah bisnis nyata di sektor Retail, E-commerce, dan F&B.
 
 Highlight Analisis & Fitur Utama:
@@ -13,6 +16,9 @@ Highlight Analisis & Fitur Utama:
 The Solution: Solusi yang saya tawarkan memberikan kontrol penuh kepada stakeholder melalui slicer interaktif, memungkinkan mereka melakukan drill-down dari gambaran eksekutif hingga detail transaksi terkecil secara instan.
 
 ## Interactive Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)
+
+![Dashboard Overview](Sales_Report/page_1.png)
+![Dashboard Overview](Sales_Report/page_2.png)
 
 Overview: Saya mengembangkan rangkaian solusi Business Intelligence (BI) komprehensif yang dirancang untuk mengubah data mentah menjadi narasi strategis bagi para eksekutif. Portofolio ini menampilkan kemampuan saya dalam menangani dataset besar dan memberikan visualisasi yang matang dalam format Professional Light Mode dan Modern Dark Mode UI.
 
@@ -28,6 +34,9 @@ The Solution: Setiap laporan memberikan kontrol penuh melalui slicer interaktif 
 
 ## Interactive Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)
 
+![Dashboard Overview](E-Commerce/Page1-Revisi.png)
+![Dashboard Overview](E-Commerce/Page1-Revisi_Light.png)
+
 Overview: I developed a high-end Business Intelligence suite designed to transform fragmented raw data into strategic executive insights. This portfolio showcases versatility in design (Modern Dark Mode vs. Professional Light Mode) and depth in analytical modeling across Retail, E-commerce, and F&B sectors.
 
 Key Analytical Pillars:
@@ -39,6 +48,9 @@ Key Analytical Pillars:
 The Solution: My dashboards empower stakeholders with interactive filtering by Year, Month, Country, and Category, enabling localized decision-making and inventory optimization.
 
 ## Interactive Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)
+
+![Dashboard Overview](Pizza_Sales/Page_1-Revisi.png)
+![Dashboard Overview](Pizza_Sales/Page_2-Revisi.png)
 
 Overview: I created a comprehensive business intelligence solution for a pizza retail business to track annual performance and customer behavior. This project transforms thousands of transaction rows into two high-impact visual reports.
 
@@ -52,6 +64,9 @@ The Result: This interactive dashboard allows the owner to filter data by month,
 
 ## Interactive Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)
 
+![Dashboard Overview](Customer_and_Sales/Page1-Revisi.png)
+![Dashboard Overview](Customer_and_Sales/Page2-Revisi.png)
+
 Overview: I designed and developed a high-performance business intelligence suite featuring both light and dark themed interactive dashboards. This project translates complex transactional data into strategic insights for executive decision-making.
 
 Key Analytical Features:
@@ -63,6 +78,9 @@ Key Analytical Features:
 The Result: This suite allows stakeholders to toggle between high-level summaries and granular details (Year, Month, Country, and Segment), providing a clear roadmap for revenue growth and customer retention.
 
 ## Interactive Sales & Customer Behavior Analytics Dashboard  (supermarket sales)
+
+![Dashboard Overview](Superstore/Page_1-revisi.png)
+![Dashboard Overview](Superstore/Page_2-revisi.png)
 
 Overview: I developed a dual-page interactive dashboard to provide a 360-degree view of retail performance. This project focuses on two core pillars: Financial Growth and Customer Retention.
 
