@@ -1,36 +1,82 @@
+## Interactive Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)
+
+![Dashboard Overview](Pizza_Sales/Page_1-Revisi.png)
+![Dashboard Overview](Pizza_Sales/Page_2-Revisi.png)
+
+Analisis Penjualan Pizza September 2015 🍕
+
+Performa bulan ini mencatatkan Revenue sebesar $64,180, mengalami penurunan 6% dibandingkan Agustus. Meskipun jumlah pesanan (3,819) dan pelanggan (1,661) berkurang, terdapat sinyal positif pada Average Order yang meningkat menjadi 16.81 (+0.77%).
+
+Insight Utama:
+
+  - Produk Unggulan: "The Classic Deluxe Pizza" menjadi favorit utama dengan 201 pesanan. Kategori Classic mendominasi pasar dengan total 1,174 pesanan.
+  - Preferensi Ukuran: Konsumen sangat menyukai ukuran L (Large) yang mencatat 1,481 pesanan, menjadikannya ukuran terpopuler di semua kategori.
+  - Loyalitas: Pelanggan dengan ID id_14938 memberikan kontribusi belanja tertinggi senilai $254.
+
+Kesimpulan: Strategi upselling pada ukuran Large dan kategori Classic terbukti efektif menjaga nilai rata-rata pesanan di tengah fluktuasi jumlah pelanggan.
+
+#DataAnalytics #PizzaSales #BusinessIntelligence #SalesPerformance #PowerBI
+
+## Interactive Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)
+
+![Dashboard Overview](Customer_and_Sales/Page1-Revisi.png)
+![Dashboard Overview](Customer_and_Sales/Page2-Revisi.png)
+
+Analisis Performa Awal Tahun - Januari 2025 🚀
+
+Dashboard menunjukkan pertumbuhan dua digit di semua metrik utama. Berikut insight dari data Januari 2025:
+
+  - Pertumbuhan MoM: Revenue mencapai $32,970, naik 18% dibanding Desember. Kenaikan ini sejalan dengan volume pesanan (+16%) dan jumlah pelanggan (+15%).
+  - Dominasi Kategori: Electronics menjadi pemimpin volume dengan 70 unit terjual.
+  - Driver Utama: Amerika Serikat menjadi motor pendapatan sebesar $7,109.97. Customer_1765 menjadi kontributor tertinggi ($1,032).
+  - Strategi Segmen: Bisnis sangat terkonsentrasi pada segmen High-Value (5 pelanggan). Momentum harian puncak terjadi pada 6 Januari dengan penjualan $1,755.
+
+Kesimpulan: Awal tahun yang solid dengan efisiensi transaksi yang terjaga.
+
+![Dashboard Overview](Superstore/Page_1-revisi.png)
+![Dashboard Overview](Superstore/Page_2-revisi.png)
+
+Analisis Superstore Sales 2016 📊
+
+Insight Utama Pada Gambar:
+
+  - Performa Finansial: Total Revenue mencapai $243M dengan rata-rata nilai pesanan $118.12K. Texas ($61M) dan segmen Consumer ($140M) menjadi penopang utama pendapatan.
+  - Dominasi Produk: Kategori Furniture memimpin dengan $141M, di mana Bookcases menyumbang $64M. Binders menjadi kategori favorit sekaligus penyumbang churn tertinggi (103 pelanggan).
+  - Kesehatan Pelanggan: Bisnis menghadapi tantangan retensi dengan Churn Rate 46.21%. Kehilangan pelanggan terbesar terjadi di New York City (35) dan Los Angeles (34).
+  - Fokus VIP: Konsentrasi pendapatan pada pelanggan kunci sangat tinggi, seperti Amy Hunt yang berkontribusi $13.5M.
+
+Kesimpulan: Diperlukan strategi retensi khusus di kota besar untuk menekan churn tanpa mengganggu pertumbuhan masif di sektor Furniture.
 ## Interactive Multi-Industry BI Suite: Executive Analytics & Growth Tracker
 
-![Dashboard Overview](Retail_Report/page_1.jpg)
-![Dashboard Overview](Retail_Report/page_2.jpg)
+![Dashboard Overview](Retail_Report/page_1_rev_2.png)
+![Dashboard Overview](Retail_Report/page_2_rev_2.png)
+Analisis Performa Bisnis - Mei 2016 📊
 
-Overview: Portofolio ini menampilkan kemampuan saya dalam membangun ekosistem Business Intelligence (BI) yang mengubah data mentah menjadi narasi strategis. Saya menghadirkan visualisasi yang tidak hanya estetis (Modern Dark Mode & Professional Light Mode), tetapi juga berfokus pada pemecahan masalah bisnis nyata di sektor Retail, E-commerce, dan F&B.
+Dashboard menunjukkan tren positif dengan kenaikan Revenue MoM sebesar $37.3K dan Margin tumbuh 3.80%. Berikut insight utamanya:
 
-Highlight Analisis & Fitur Utama:
+  - Performa: Total pendapatan mencapai $64,769 dengan Sydney sebagai kota paling menguntungkan dengan profit $6,067.74.
+  - Dominasi: Office Supplies menyumbang 67.13% pendapatan, namun mencatat total diskon tinggi (445%) yang memicu "Profit Gap" atau ketidakseimbangan antara omzet dan laba.
+  - Logistik: Tercatat 131 transaksi dengan ATV $494. Metode Regular Air mendominasi dengan 114 transaksi.
+  - Alert: Kategori Furniture menunjukkan tren penurunan konsisten, memerlukan evaluasi strategi harga segera.
 
-  - Strategic Sales & Financial Intelligence: Mengelola dataset besar dengan pendapatan hingga $243M (Retail) dan R$ 41M (Global E-commerce). Dilengkapi dengan pelacakan pertumbuhan YoY (14.95% Margin) dan MoM (+18.1% Revenue).
-  - Advanced Customer Behavior: Analisis mendalam terhadap Churn Rate (46.21%), segmentasi pelanggan (High, Mid, Low Value), dan identifikasi pelanggan bernilai tinggi untuk meningkatkan retensi.
-  - Operational & Logistics Excellence: Visualisasi efisiensi pengiriman (rata-rata 4.04 hari) dan analisis performa per Seller ID serta wilayah geografis di 272 kota.
-  - Actionable Narrative Insights: Fitur unggulan berupa Narrative Box dan Summary Sections yang merangkum tren emas (Peak Season) dan memberikan peringatan kritis (Critical Alert) untuk evaluasi strategi harga.
-  - Specific Industry Deep-Dives: Dashboard khusus untuk Pizza Retail yang melacak korelasi ukuran produk, kategori popularitas, dan frekuensi pesanan.
-
-The Solution: Solusi yang saya tawarkan memberikan kontrol penuh kepada stakeholder melalui slicer interaktif, memungkinkan mereka melakukan drill-down dari gambaran eksekutif hingga detail transaksi terkecil secara instan.
+Kesimpulan: Pertumbuhan volume harus diimbangi efisiensi diskon untuk menjaga profitabilitas.
 
 ## Interactive Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)
 
-![Dashboard Overview](Sales_Report/page_1.png)
-![Dashboard Overview](Sales_Report/page_2.png)
+![Dashboard Overview](Sales_Report/page_1_rev.png)
+![Dashboard Overview](Sales_Report/page_2_rev.png)
 
-Overview: Saya mengembangkan rangkaian solusi Business Intelligence (BI) komprehensif yang dirancang untuk mengubah data mentah menjadi narasi strategis bagi para eksekutif. Portofolio ini menampilkan kemampuan saya dalam menangani dataset besar dan memberikan visualisasi yang matang dalam format Professional Light Mode dan Modern Dark Mode UI.
+Analisis Performa Eksekutif & Penjualan - November 2016 📊
 
-Highlight Analisis & Fitur Utama:
+Meskipun Revenue bulan ini mencapai $5M (turun $1.6M MoM), terdapat peningkatan efisiensi operasional yang signifikan. Berikut insight utamanya:
 
-  - Strategic Sales Intelligence: Mengelola dataset dengan pendapatan hingga $243M (Retail) dan R$ 41M (E-commerce Internasional), lengkap dengan pelacakan pertumbuhan bulanan hingga +18.1%.
-  - Advanced Customer Behavior: Analisis teknis mendalam terhadap Churn Rate (46.21%) dan segmentasi pelanggan (High, Mid, Low Value).
-  - Executive Performance Suite: Dashboard khusus yang melacak Average Margin (9.45%), total biaya, dan keuntungan dengan indikator perbandingan bulan sebelumnya (Vs Last Month).
-  - Actionable Narrative Summaries: Penggunaan fitur Narrative Box dan Summary Sections untuk memberikan rekomendasi otomatis berdasarkan data, seperti peringatan penurunan margin pada kategori produk tertentu.
-  - Niche Industry Analytics: Solusi spesifik untuk sektor Food & Beverage (Pizza Sales) yang melacak 3,819 pesanan dan korelasi popularitas antara ukuran serta kategori produk.
+  - Peningkatan Margin: Average Margin naik 2.34% menjadi 11.25%, menunjukkan kontrol biaya yang lebih baik meskipun volume pendapatan menurun.
+  - Dominasi Produk: Kategori Clothing menjadi kontributor terbesar dengan pendapatan $1,422,637 dan volume penjualan tertinggi (601 unit).
+  - Perilaku Pelanggan: Pelanggan Returning (1,179) menghasilkan nilai penjualan lebih tinggi dibandingkan pelanggan baru, mempertegas pentingnya strategi retensi.
+  - Kanal & Pembayaran: Penjualan Retail mendominasi (60.17%) dengan Bank Transfer sebagai metode pembayaran terfavorit (858 transaksi).
+  - Geografis: Wilayah East memimpin performa penjualan, sementara wilayah South memerlukan perhatian khusus karena selisih performa yang cukup jauh.
 
-The Solution: Setiap laporan memberikan kontrol penuh melalui slicer interaktif (Tahun, Bulan, Wilayah, Kategori), memungkinkan drill-down instan dari ringkasan eksekutif hingga detail transaksi.
+Kesimpulan: Fokus pada kategori profitabel dan efisiensi biaya berhasil menjaga kesehatan margin di tengah fluktuasi pasar.
 
 ## Interactive Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)
 
@@ -47,46 +93,4 @@ Key Analytical Pillars:
 
 The Solution: My dashboards empower stakeholders with interactive filtering by Year, Month, Country, and Category, enabling localized decision-making and inventory optimization.
 
-## Interactive Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)
 
-![Dashboard Overview](Pizza_Sales/Page_1-Revisi.png)
-![Dashboard Overview](Pizza_Sales/Page_2-Revisi.png)
-
-Overview: I created a comprehensive business intelligence solution for a pizza retail business to track annual performance and customer behavior. This project transforms thousands of transaction rows into two high-impact visual reports.
-
-Key Analytical Features:
-  - Sales Intelligence (Report 1): Tracks $64,180 in Total Revenue and 3,819 Total Orders. It features trend analysis to monitor daily revenue fluctuations and identifies The Classic Deluxe Pizza as the top-selling product.
-  - Performance & Segmentation (Report 2): Deep-dive into order sizes and categories. Analysis shows that Large (L) size pizzas are the most preferred, with 1,481 orders.
-  - Customer Tracking: Identified top-performing customers by sales value (e.g., id_14938 with $254) and analyzed the correlation between pizza categories (Classic, Veggie, Chicken, Supreme) and sizes.
-  - Operational Metrics: Tracks Average Order Value ($16.81) to help the business optimize pricing and promotional strategies.
-
-The Result: This interactive dashboard allows the owner to filter data by month, pizza name, size, and category, providing a clear roadmap to increase sales and optimize inventory.
-
-## Interactive Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)
-
-![Dashboard Overview](Customer_and_Sales/Page1-Revisi.png)
-![Dashboard Overview](Customer_and_Sales/Page2-Revisi.png)
-
-Overview: I designed and developed a high-performance business intelligence suite featuring both light and dark themed interactive dashboards. This project translates complex transactional data into strategic insights for executive decision-making.
-
-Key Analytical Features:
-  - Sales Performance & Growth: Tracking $243M in Total Revenue across 272 cities, identifying Texas as a top-performing state with $61M in sales.
-  - Customer Behavior & Retention: Deep-dive analysis into a 46.21% Churn Rate, mapping at-risk customers by city and category to improve loyalty programs.
-  - Dark Mode Executive Dashboard: A modern UI approach for 2025 performance tracking, featuring monthly growth trends (e.g., +18.1% Revenue increase) and segment concentration analysis.
-  - Operational Efficiency: Monitoring logistics through Average Ship Duration (4.04 days) to optimize supply chain performance.
-
-The Result: This suite allows stakeholders to toggle between high-level summaries and granular details (Year, Month, Country, and Segment), providing a clear roadmap for revenue growth and customer retention.
-
-## Interactive Sales & Customer Behavior Analytics Dashboard  (supermarket sales)
-
-![Dashboard Overview](Superstore/Page_1-revisi.png)
-![Dashboard Overview](Superstore/Page_2-revisi.png)
-
-Overview: I developed a dual-page interactive dashboard to provide a 360-degree view of retail performance. This project focuses on two core pillars: Financial Growth and Customer Retention.
-
-Key Features & Insights:
-  - Sales Performance (Dashboard 1): Tracks $243M Total Revenue across 272 cities. It features geographic heatmaps (Texas as the top state with $61M) and product category deep-dives (Bookcases leading at $64M).
-  - Customer Intelligence (Dashboard 2): Analyzes a 46.21% Churn Rate to help businesses identify at-risk segments. It includes "New Customer Growth" tracking and identifies high-value clients like Amy Hunt ($13.5M).
-  - Operational Metrics: Monitors average shipping durations (4.04 days) and identifies the most used shipping modes to optimize logistics.
-
-The Solution: I transformed raw transactional data into actionable insights using advanced DAX/Calculated Fields, ensuring the client can filter data by Year, State, and City to make localized strategic decisions.
