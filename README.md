@@ -1,3 +1,19 @@
+## Google ADS (Google ADS)
+
+![Dashboard Overview](Google_ADS/Dashboard_Google_ads_1.png)
+![Dashboard Overview](Google_ADS/Dashboard_Google_ads_2.png)
+
+Optimasi Google Ads - November 2024 🚀
+
+Analisis taktis kampanye menunjukkan skala performa masif dengan total biaya $33,4M. Berikut insight utamanya:
+
+  - Efisiensi & Skala: Menghasilkan 110.940 konversi dari 2,37M klik dengan rata-rata CPA sebesar $347,55.
+  - Distribusi Perangkat: Performa audiens sangat seimbang di berbagai platform: Desktop (34,7%), Mobile (33,6%), dan Tablet (31,6%).
+  - Keyword Jawara: Kata kunci "Learn Data Analytics" menjadi pendorong utama dengan biaya $6,2M dan total 13,7M impresi.
+  - Stabilitas Biaya: Tren CPA harian berfluktuasi secara terkendali dalam rentang $689 hingga $831.
+
+Kesimpulan: Strategi ini berhasil menjangkau audiens luas secara merata dengan fokus investasi yang tepat pada kata kunci berperforma tinggi.
+
 ## Interactive Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)
 
 ![Dashboard Overview](Pizza_Sales/Page_1-Revisi.png)
@@ -15,7 +31,23 @@ Insight Utama:
 
 Kesimpulan: Strategi upselling pada ukuran Large dan kategori Classic terbukti efektif menjaga nilai rata-rata pesanan di tengah fluktuasi jumlah pelanggan.
 
-#DataAnalytics #PizzaSales #BusinessIntelligence #SalesPerformance #PowerBI
+## Interactive Pizza Sales Performance & Customer Insight Dashboard (Look Ecommece)
+
+![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
+![Dashboard Overview](Look_Ecommerce/look_ecom_dash_2.jpg)
+![Dashboard Overview](Look_Ecommerce/look_ecom_dash_3.png)
+![Dashboard Overview](Look_Ecommerce/look_ecom_dash_4.png)
+
+Analisis Strategis E-Commerce: The Look Dashboard 📈
+
+Ringkasan Performa:
+
+  - Financials: Bisnis mencatat pendapatan impresif sebesar $29,02M dengan profit $13,96M, menghasilkan margin sehat di angka 48,10%.
+  - Operasional: Total pesanan mencapai 124.684 dengan tingkat pengembalian (Return Rate) sebesar 10,07%.
+  - Logistik: Efisiensi pengiriman terjaga dengan rata-rata waktu kirim (Time to Ship) 36,04 jam dan waktu antar (Time to Deliver) 3,89 hari.
+  - Status Pesanan: Distribusi status didominasi oleh Shipped (30%) dan Complete (24,9%), namun terdapat angka pembatalan sebesar 15%.
+
+Insight: Meskipun margin keuntungan sangat kuat, optimasi pada pengurangan tingkat pembatalan (15%) dan pengembalian produk (10%) merupakan peluang utama untuk meningkatkan laba bersih lebih lanjut.
 
 ## Interactive Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)
 
@@ -46,7 +78,6 @@ Insight Utama Pada Gambar:
   - Fokus VIP: Konsentrasi pendapatan pada pelanggan kunci sangat tinggi, seperti Amy Hunt yang berkontribusi $13.5M.
 
 Kesimpulan: Diperlukan strategi retensi khusus di kota besar untuk menekan churn tanpa mengganggu pertumbuhan masif di sektor Furniture.
-## Interactive Multi-Industry BI Suite: Executive Analytics & Growth Tracker
 
 ![Dashboard Overview](Retail_Report/page_1_rev_2.png)
 ![Dashboard Overview](Retail_Report/page_2_rev_2.png)
