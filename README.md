@@ -1,3 +1,64 @@
+# Portofoilo 2026
+
+## Financial Performance Dashboard — LoremIpsum Corp
+Overview
+
+![Dashboard Overview](Financial_Dashboard/finance-1.webp)
+![Dashboard Overview](Financial_Dashboard/finance-1-tooltip.webp)
+![Dashboard Overview](Financial_Dashboard/finance-2.webp)
+![Dashboard Overview](Financial_Dashboard/finance-2-tooltip.webp)
+![Dashboard Overview](Financial_Dashboard/finance-3.webp)
+![Dashboard Overview](Financial_Dashboard/finance-3-tooltip.webp)
+
+3-page Power BI financial analytics dashboard covering Executive Financial Summary, Budget vs Actual Analysis, and Operational Expense & Efficiency
+Key highlight: custom rich tooltips on every chart displaying detailed metrics (MoM change, vs Last Year comparison) without cluttering the main canvas
+Interactive slicers for Year, Quarter, Month, Country, Segment, Department, and Product category
+
+Dashboard Pages
+
+- Executive Financial Summary — KPI cards with health zone indicators (Healthy/Watch/Danger), Revenue vs Net Profit trend, and cost breakdown ratio (Revenue $1 → COGS $0.86 → OPEX $0.03 → Profit $0.11)
+- Budget vs Actual Analysis — YTD gauge chart, achievement rate by segment and product, Achievement Matrix heatmap across 5 countries and 6 products, actual vs target by month/product/country
+- Operational Expense & Efficiency — Efficiency Score Grade (B+ / 76/100), OPEX breakdown by department and category, 3-month rolling average trend, budget adherence scoring
+
+Tooltip Feature
+
+- Every visual includes custom tooltips surfacing contextual detail: current value, % change vs last month, and % change vs last year — enabling drill-down insight without page navigation
+
+## HR Analytics Dashboard — PT. Maju Bersama Tbk.
+Overview
+![Dashboard Overview](HR_Dashboard/HR-1.webp)
+![Dashboard Overview](HR_Dashboard/HR-2.webp)
+![Dashboard Overview](HR_Dashboard/HR-3.webp)
+![Dashboard Overview](HR_Dashboard/HR-4.webp)
+![Dashboard Overview](HR_Dashboard/HR-5.webp)
+![Report Dashboard](HR_Dashboard/HR%20Report.pdf)
+
+Multi-page Power BI HR analytics dashboard built from employee data of 1,470 total workforce across 3 departments
+Covers 5 analytical sections: Executive Overview, Attrition Deep Dive, Workforce Profile, Compensation & Growth, and Employee Engagement
+
+Key Features
+
+- Interactive filter pane with Year and Month slicer for time-based analysis
+- Paginated report export functionality for formal HR reporting
+- Cross-page navigation menu for seamless tab switching
+
+Dashboard Pages
+
+- Executive Overview — KPI cards (headcount, attrition rate, avg salary, eNPS), department summary tables, satisfaction gauge, demographic distributions
+- Attrition Deep Dive — Risk segmentation, attrition by department/age/tenure, heatmap by job level, resign trend over years of service
+- Workforce Profile — Job level pyramid, tenure distribution, education field breakdown, gender split, marital status
+- Compensation & Growth — Salary by job level and department, salary band distribution, bonus pool, training frequency by role
+- Employee Engagement — Satisfaction scores (job, environment, work-life balance, relationship), department-level engagement breakdown, satisfaction trend by job level
+
+Data Highlights
+
+- Attrition rate: 19.22% with Sales as highest-risk department (26%)
+- Overall satisfaction score: 2.73 / 4.00
+- Average monthly salary: $6,503 with 15.21% annual salary hike
+- High-risk attrition employees identified: 28 employees flagged for priority HR intervention
+
+# Portofoilo 2025
+
 ## Google ADS (Google ADS)
 
 ![Dashboard Overview](Google_ADS/Dashboard_Google_ads_1.png)
