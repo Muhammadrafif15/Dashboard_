@@ -1,4 +1,4 @@
-# Portofoilo 2026
+# Portofolio 2026
 
 ## Financial Performance Dashboard — LoremIpsum Corp
 Overview
