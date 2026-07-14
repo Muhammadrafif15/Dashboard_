@@ -1,7 +1,16 @@
 # Portofolio 2026
 
-## Financial Performance Dashboard — LoremIpsum Corp
-Overview
+## Table og Content
+1. [Financial Performance Dashboard](#financial-performance-dashboard---loremipsum-corp-overview)
+2. [HR Analytics Dashboard](#hr-analytics-dashboard---pt-maju-bersama-tbk)
+3. [Google ADS](#google-ads)
+4. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
+5. [Look Ecommerce Performance & Customer Insight Dashboard (Look Ecommece)](#interactive-pizza-sales-performance--customer-insight-dashboard-look-ecommece)
+6. [Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)](#interactive-executive-business-intelligence--sales-analytics-suite-sales-e-commmerce)
+7. [Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)](#interactive-executive-business-intelligence--advanced-sales-analytics-suite-sales-report)
+8. [Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)](#interactive-multi-industry-bi-dashboards--executive-analytics-brazzilan-e-commerce)
+
+## Financial Performance Dashboard — LoremIpsum Corp Overview
 
 ![Dashboard Overview](Financial_Dashboard/finance-1.webp)
 ![Dashboard Overview](Financial_Dashboard/finance-1-tooltip.webp)
