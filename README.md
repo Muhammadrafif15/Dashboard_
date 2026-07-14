@@ -1,6 +1,6 @@
 # Portofolio 2026
 
-## Table og Content
+## Table of Content
 1. [Financial Performance Dashboard](#financial-performance-dashboard---loremipsum-corp-overview)
 2. [HR Analytics Dashboard](#hr-analytics-dashboard---pt-maju-bersama-tbk)
 3. [Google ADS](#google-ads)
