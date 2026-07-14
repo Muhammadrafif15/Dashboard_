@@ -1,9 +1,9 @@
 # Portofolio 2026
 
 ## Table of Content
-1. [Financial Performance Dashboard](#financial-performance-dashboard---loremipsum-corp-overview)
-2. [HR Analytics Dashboard](#hr-analytics-dashboard---pt-maju-bersama-tbk)
-3. [Google ADS](#google-ads)
+1. [Financial Performance Dashboard](#financial-performance-dashboard-—-loremipsum-corp-overview)
+2. [HR Analytics Dashboard](#hr-analytics-dashboard-pt.-maju-bersama-tbk.)
+3. [Google ADS](#google-ads-(google-ads))
 4. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
 5. [Look Ecommerce Performance & Customer Insight Dashboard (Look Ecommece)](#interactive-pizza-sales-performance--customer-insight-dashboard-look-ecommece)
 6. [Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)](#interactive-executive-business-intelligence--sales-analytics-suite-sales-e-commmerce)
@@ -101,7 +101,7 @@ Insight Utama:
 
 Kesimpulan: Strategi upselling pada ukuran Large dan kategori Classic terbukti efektif menjaga nilai rata-rata pesanan di tengah fluktuasi jumlah pelanggan.
 
-## Interactive Pizza Sales Performance & Customer Insight Dashboard (Look Ecommece)
+## Interactive Look E-Commerce Performance & Customer Insight Dashboard (Look Ecommece)
 
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_2.jpg)
