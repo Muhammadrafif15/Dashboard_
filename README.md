@@ -1,3 +1,73 @@
+# Portofolio 2026
+
+## Table of Content
+1. [Financial Performance Dashboard](#financial-performance-dashboard-—-loremipsum-corp-overview)
+2. [HR Analytics Dashboard](#hr-analytics-dashboard-pt.-maju-bersama-tbk.)
+3. [Google ADS](#google-ads-(google-ads))
+4. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
+5. [Look Ecommerce Performance & Customer Insight Dashboard (Look Ecommece)](#interactive-pizza-sales-performance--customer-insight-dashboard-look-ecommece)
+6. [Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)](#interactive-executive-business-intelligence--sales-analytics-suite-sales-e-commmerce)
+7. [Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)](#interactive-executive-business-intelligence--advanced-sales-analytics-suite-sales-report)
+8. [Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)](#interactive-multi-industry-bi-dashboards--executive-analytics-brazzilan-e-commerce)
+
+## Financial Performance Dashboard — LoremIpsum Corp Overview
+
+![Dashboard Overview](Financial_Dashboard/finance-1.webp)
+![Dashboard Overview](Financial_Dashboard/finance-1-tooltip.webp)
+![Dashboard Overview](Financial_Dashboard/finance-2.webp)
+![Dashboard Overview](Financial_Dashboard/finance-2-tooltip.webp)
+![Dashboard Overview](Financial_Dashboard/finance-3.webp)
+![Dashboard Overview](Financial_Dashboard/finance-3-tooltip.webp)
+
+3-page Power BI financial analytics dashboard covering Executive Financial Summary, Budget vs Actual Analysis, and Operational Expense & Efficiency
+Key highlight: custom rich tooltips on every chart displaying detailed metrics (MoM change, vs Last Year comparison) without cluttering the main canvas
+Interactive slicers for Year, Quarter, Month, Country, Segment, Department, and Product category
+
+Dashboard Pages
+
+- Executive Financial Summary — KPI cards with health zone indicators (Healthy/Watch/Danger), Revenue vs Net Profit trend, and cost breakdown ratio (Revenue $1 → COGS $0.86 → OPEX $0.03 → Profit $0.11)
+- Budget vs Actual Analysis — YTD gauge chart, achievement rate by segment and product, Achievement Matrix heatmap across 5 countries and 6 products, actual vs target by month/product/country
+- Operational Expense & Efficiency — Efficiency Score Grade (B+ / 76/100), OPEX breakdown by department and category, 3-month rolling average trend, budget adherence scoring
+
+Tooltip Feature
+
+- Every visual includes custom tooltips surfacing contextual detail: current value, % change vs last month, and % change vs last year — enabling drill-down insight without page navigation
+
+## HR Analytics Dashboard — PT. Maju Bersama Tbk.
+Overview
+![Dashboard Overview](HR_Dashboard/HR-1.webp)
+![Dashboard Overview](HR_Dashboard/HR-2.webp)
+![Dashboard Overview](HR_Dashboard/HR-3.webp)
+![Dashboard Overview](HR_Dashboard/HR-4.webp)
+![Dashboard Overview](HR_Dashboard/HR-5.webp)
+![Report Dashboard](HR_Dashboard/HR%20Report.pdf)
+
+Multi-page Power BI HR analytics dashboard built from employee data of 1,470 total workforce across 3 departments
+Covers 5 analytical sections: Executive Overview, Attrition Deep Dive, Workforce Profile, Compensation & Growth, and Employee Engagement
+
+Key Features
+
+- Interactive filter pane with Year and Month slicer for time-based analysis
+- Paginated report export functionality for formal HR reporting
+- Cross-page navigation menu for seamless tab switching
+
+Dashboard Pages
+
+- Executive Overview — KPI cards (headcount, attrition rate, avg salary, eNPS), department summary tables, satisfaction gauge, demographic distributions
+- Attrition Deep Dive — Risk segmentation, attrition by department/age/tenure, heatmap by job level, resign trend over years of service
+- Workforce Profile — Job level pyramid, tenure distribution, education field breakdown, gender split, marital status
+- Compensation & Growth — Salary by job level and department, salary band distribution, bonus pool, training frequency by role
+- Employee Engagement — Satisfaction scores (job, environment, work-life balance, relationship), department-level engagement breakdown, satisfaction trend by job level
+
+Data Highlights
+
+- Attrition rate: 19.22% with Sales as highest-risk department (26%)
+- Overall satisfaction score: 2.73 / 4.00
+- Average monthly salary: $6,503 with 15.21% annual salary hike
+- High-risk attrition employees identified: 28 employees flagged for priority HR intervention
+
+# Portofoilo 2025
+
 ## Google ADS (Google ADS)
 
 ![Dashboard Overview](Google_ADS/Dashboard_Google_ads_1.png)
@@ -31,7 +101,7 @@ Insight Utama:
 
 Kesimpulan: Strategi upselling pada ukuran Large dan kategori Classic terbukti efektif menjaga nilai rata-rata pesanan di tengah fluktuasi jumlah pelanggan.
 
-## Interactive Pizza Sales Performance & Customer Insight Dashboard (Look Ecommece)
+## Interactive Look E-Commerce Performance & Customer Insight Dashboard (Look Ecommece)
 
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_1.jpg)
 ![Dashboard Overview](Look_Ecommerce/look_ecom_dash_2.jpg)
