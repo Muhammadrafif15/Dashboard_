@@ -338,7 +338,7 @@ A five-page Power BI dashboard for HR analytics, plus a parameter-driven paginat
 - [Paginated report](#paginated-report)
 - [Data model and key measures](#data-model-and-key-measures)
 - [What changed in this revision](#what-changed-in-this-revision)
-- [Known limitations](#known-limitations)
+- [Dashboard Update](#dashboard-update)
 - [Tools](#tools)
 
 ---
@@ -364,6 +364,8 @@ A formal monthly report built in Power BI Report Builder, designed to be sent to
 - **One parameter, `ReportMonth`,** drives the period label (e.g. *01–31 October 2026*), publish date and document number (e.g. `DOC/HRD/RPT/2026-10`).
 - **Structure:** cover page, table of contents, seven sections (headcount, recruitment and movement, compensation and payroll, performance and development, satisfaction and retention, attendance/overtime/work location, attrition risk and follow-up plan) and a created/checked/approved sign-off block.
 - **Export:** PDF, Accessible PDF, Word, PowerPoint, Excel, CSV, MHTML and XML.
+
+📄 [Download Monthly Paginated Report (PDF)](docs/monthly-paginated-report.pdf)
 
 ![Paginated report cover](HR_Dashboard/content/HR-Dashboard-report.png)
 
@@ -450,7 +452,7 @@ Attrition Rate = DIVIDE ( [Total Resign], [Total Employees] )
 
 ---
 
-### Dahboard Update
+### Dashboard Update
 
 | | |
 |---|---|
