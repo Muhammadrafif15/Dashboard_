@@ -5,7 +5,8 @@
   1. [Financial Performance Dashboard](#financial-performance-dashboard)
   2. [Financial Performance Dashboard UPDATE](#financial-performance-dashboard-power-bi-update)
   3. [HR Analytics Dashboard](#hr-analytics-dashboard)
-  4. [Marketing Analytics Dashboard](#marketing-analytics-dashboard)
+  4. [HR Analytics Dashboard + Monthly Paginated Report UPDATE](#hr-analytics-dashboard--monthly-paginated-report-power-bi-update)
+  5. [Marketing Analytics Dashboard](#marketing-analytics-dashboard)
 #### B. [Portofolio 2025](#portofolio-2025)
   5. [Google ADS (Google ADS)](#google-ads-google-ads)
   6. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
@@ -320,6 +321,147 @@ Data Highlights
 - Overall satisfaction score: 2.73 / 4.00
 - Average monthly salary: $6,503 with 15.21% annual salary hike
 - High-risk attrition employees identified: 28 employees flagged for priority HR intervention
+
+## HR Analytics Dashboard + Monthly Paginated Report (Power BI) UPDATE
+
+A five-page Power BI dashboard for HR analytics, plus a parameter-driven paginated report that produces a monthly HR report in one click. The project covers headcount, attrition, workforce profile, compensation and employee engagement.
+
+> **Data:** public HR sample dataset (IBM-style attrition data). Company name, signatories and document numbers in the paginated report are fictional.
+
+![Executive Overview](HR_Dashboard/content/HR-Dashboard-overview.png)
+
+---
+
+### Contents
+
+- [Dashboard pages](#dashboard-pages)
+- [Paginated report](#paginated-report)
+- [Data model and key measures](#data-model-and-key-measures)
+- [What changed in this revision](#what-changed-in-this-revision)
+- [Known limitations](#known-limitations)
+- [Tools](#tools)
+
+---
+
+### Dashboard pages
+
+| Page | What it answers | Main components |
+|---|---|---|
+| **Executive Overview** | How big is the workforce, and how healthy is it? | KPI cards with prior-year (PY) comparison: active employees, attrition rate, average tenure, average salary, eNPS. Overall satisfaction gauge. Salary bands by department, headcount and attrition table, rating and satisfaction table, age, location and gender distributions |
+| **Attrition Deep Dive** | Who leaves, and where does attrition concentrate? | Total attrition, attrition rate, overtime attrition rate, high-risk role with its rate. Risk level distribution, attrition by department and age group, heatmap by job level and department, attrition by tenure band |
+| **Workforce Profile** | Who works here? | Job level pyramid, education field, tenure in current role, age by gender (butterfly chart), gender split, marital status |
+| **Compensation & Growth** | Is pay and development fair and competitive? | Salary hike, years since promotion, bonus, training frequency, employees without training, average rating. Salary by job level and department, training by job role, salary band distribution |
+| **Engagement** | How do employees feel? | Job, environment, work-life and relationship satisfaction (scale 1–4) with PY, scores by department and job level, work-life distribution, overtime rate, eNPS breakdown (promoter, passive, detractor) |
+
+Navigation: top menu with active-page highlight, a **Report** button to the paginated report, and a **Filter** button that opens a slide-out panel (year, month, department) so the canvas stays clean.
+
+---
+
+### Paginated report
+
+A formal monthly report built in Power BI Report Builder, designed to be sent to stakeholders rather than screenshotted from the dashboard.
+
+- **One parameter, `ReportMonth`,** drives the period label (e.g. *01–31 October 2026*), publish date and document number (e.g. `DOC/HRD/RPT/2026-10`).
+- **Structure:** cover page, table of contents, seven sections (headcount, recruitment and movement, compensation and payroll, performance and development, satisfaction and retention, attendance/overtime/work location, attrition risk and follow-up plan) and a created/checked/approved sign-off block.
+- **Export:** PDF, Accessible PDF, Word, PowerPoint, Excel, CSV, MHTML and XML.
+
+![Paginated report cover](HR_Dashboard/content/HR-Dashboard-report.png)
+
+---
+
+### Data model and key measures
+
+The dashboard and the paginated report read from the same semantic model, so numbers match across both.
+
+**Attrition is defined once**, as resigned employees divided by all employees (active plus resigned), and reused on every page and in the PY comparison:
+
+```DAX
+Total Employees = DISTINCTCOUNT ( 'Employee'[EmployeeNumber] )
+
+Total Resign =
+CALCULATE ( [Total Employees], 'Employee'[Attrition] = "Yes" )
+
+Active Employees =
+CALCULATE ( [Total Employees], 'Employee'[Attrition] = "No" )
+
+Attrition Rate = DIVIDE ( [Total Resign], [Total Employees] )
+```
+
+> Simplified for illustration. Column and measure names follow the sample dataset and may differ slightly from the .pbix.
+
+**Reconciliation checks used while validating:**
+
+- Department totals add up to headcount (63 + 961 + 446 = 1,470 total, of which 1,233 active and 237 resigned).
+- Risk distribution (658 + 466 + 109) equals active employees (1,233).
+- Age, gender and work-location charts each add up to the active headcount.
+- Overtime rate on the dashboard (23%) matches the paginated report.
+
+---
+
+### What changed in this revision
+
+#### 1. Metric definitions and logic
+
+| Area | Before | After |
+|---|---|---|
+| **Attrition rate** | Two definitions in the same file: resigned ÷ active on the Overview (19.22%) and resigned ÷ total on the Attrition page (16.12%) | One measure (resigned ÷ total employees) on every page: **16.12%** |
+| **Attrition PY** | Overview and Attrition page used different bases (18.36% vs 15.51%) | Same basis on both pages: **15.51% PY** |
+| **Department attrition** | Overview 24% / 16% / 26% vs Attrition page 19% / 14% / 21% | Consistent: **19% / 14% / 21%** |
+| **HR department** | Showed **400%** attrition when filtered (4 resigned ÷ 1 active) | Rates stay below 100% because the denominator is total employees |
+| **"Total Employees"** | Card showed active employees (1,233) under a "total" label | Renamed **Total Active Employees**; table headers say *Active Female / Active Male* |
+| **Risk distribution** | 1,119 Medium / 86 Low / 28 High (91% Medium, little signal) | **658 Low / 466 Medium / 109 High**, sums to 1,233 |
+| **High-risk role** | Same text repeated as value and PY | Role plus its attrition rate (Sales Representative, **39.76%**) |
+| **eNPS** | Label "Ensp", value −0.147 | **eNPS**, shown on the −100 to +100 scale (−15) |
+
+#### 2. Charts and readability
+
+| Area | Before | After |
+|---|---|---|
+| **Attrition by tenure** | Raw counts by year, spike to 100% at year 40 from a tiny sample | Rate by **tenure bands** (0–1 … 31–40) |
+| **Risk heatmap** | Bars without numbers or a legend | Matrix of job level × department with percentages |
+| **Job level pyramid** | Sorted by value | Sorted by hierarchy (Director at the top, Entry Level at the bottom) |
+| **Age by gender** | No legend, groups sorted by size | Legend added; age groups ordered 18–25 to 55+ |
+| **Tenure chart** | Titled "Tenure Distribution", but it measures years in current role | Retitled **Tenure Years Distribution in Current Role** |
+| **Satisfaction** | Index values such as 100.83% and 95.40% that read like percentages | Actual scores on the 1–4 scale in department and job-level tables, plus an **Overall Satisfaction** column |
+| **Work-life scale** | Mixed Indonesian/English labels sorted by count | **Poor → Very Good**, in English and in logical order |
+| **Overtime donut** | "Job Satisfaction OverTime" (51% / 49%), unclear meaning | **Overtime Rate** (23% / 77%) |
+| **eNPS** | A single number | Promoter / Passive / Detractor breakdown |
+| **Salary charts** | Monthly salary and annual bonus on one axis with no unit labels | Series labelled *(monthly)* and *(annual)* |
+
+#### 3. Labels, navigation and design
+
+| Area | Before | After |
+|---|---|---|
+| **Typos and naming** | "COMPESATIN & GROWTH" (also used on the Engagement page), "Promosi Employees", "Employes", "Ensp", "Categori" | Corrected page titles and card labels; Engagement page has its own title |
+| **Menu** | No indication of the current page | Active page highlighted |
+| **Filters** | Basic slicers | Slide-out panel with year, month and department, plus Clear and Close |
+| **Salary band colours** | Red, orange and blue with no meaning | Single-hue gradient |
+| **Marital status** | Divorced highlighted in red | Neutral greys |
+| **Compensation KPI** | "Total Top Employees" with no definition | **Avg Employees Rating** |
+
+#### 4. Paginated report
+
+| Area | Before | After |
+|---|---|---|
+| **Reporting period** | Header said *Desember 2023* while the period box said *Mei 2025* | Driven by `ReportMonth`; header and period always agree |
+| **Document number / publish date** | Hard-coded (`DOC/HRD/RPT/2023-12`) | Generated from the parameter (`DOC/HRD/RPT/2026-10`) |
+| **Language** | Mixed Indonesian and English ("Daftar Isi") | Table of contents in English |
+| **Generation** | Edit text by hand every month | Pick the month, view the report, export |
+
+---
+
+### Dahboard Update
+
+| | |
+|---|---|
+| ![Attrition](HR_Dashboard/content/HR-Dashboard-attrition.png) | ![Workforce](HR_Dashboard/content/HR-Dashboard-workforce.png) |
+| ![Compensation](HR_Dashboard/content/HR-Dashboard-compensation.png) | ![Engagement](HR_Dashboard/content/HR-Dashboard-engagement.png) |
+
+---
+
+### Tools
+
+Power BI Desktop, DAX, Power BI Report Builder (paginated report), Power Query.
 
 ## Marketing Analytics Dashboard
 
