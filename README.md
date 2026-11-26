@@ -1,16 +1,19 @@
 # Portofolio 2026
 
 ## Table of Content
-1. [Financial Performance Dashboard](#financial-performance-dashboard-—-loremipsum-corp-overview)
-2. [HR Analytics Dashboard](#hr-analytics-dashboard-pt.-maju-bersama-tbk.)
-3. [Google ADS](#google-ads-(google-ads))
-4. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
-5. [Look Ecommerce Performance & Customer Insight Dashboard (Look Ecommece)](#interactive-pizza-sales-performance--customer-insight-dashboard-look-ecommece)
-6. [Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)](#interactive-executive-business-intelligence--sales-analytics-suite-sales-e-commmerce)
-7. [Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)](#interactive-executive-business-intelligence--advanced-sales-analytics-suite-sales-report)
-8. [Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)](#interactive-multi-industry-bi-dashboards--executive-analytics-brazzilan-e-commerce)
+#### A.  [Portofolio 2026](#portofolio-2026)
+  1. [Financial Performance Dashboard](#financial-performance-dashboard)
+  2. [HR Analytics Dashboard](#hr-analytics-dashboard)
+  3. [Marketing Analytics Dashboard](#marketing-analytics-dashboard)
+#### B. [Portofolio 2025](#portofolio-2025)
+  5. [Google ADS (Google ADS)](#google-ads-google-ads)
+  6. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
+  7. [Look Ecommerce Performance & Customer Insight Dashboard (Look Ecommece)](#interactive-look-e-commerce-performance--customer-insight-dashboard-look-ecommece)
+  8. [Executive Business Intelligence & Sales Analytics Suite (sales E-Commmerce)](#interactive-executive-business-intelligence--sales-analytics-suite-sales-e-commmerce)
+  9. [Executive Business Intelligence & Advanced Sales Analytics Suite (Sales Report)](#interactive-executive-business-intelligence--advanced-sales-analytics-suite-sales-report)
+  10. [Multi-Industry BI Dashboards & Executive Analytics (Brazzilan E-Commerce)](#interactive-multi-industry-bi-dashboards--executive-analytics-brazzilan-e-commerce)
 
-## Financial Performance Dashboard — LoremIpsum Corp Overview
+## Financial Performance Dashboard
 
 ![Dashboard Overview](Financial_Dashboard/finance-1.webp)
 ![Dashboard Overview](Financial_Dashboard/finance-1-tooltip.webp)
@@ -33,7 +36,7 @@ Tooltip Feature
 
 - Every visual includes custom tooltips surfacing contextual detail: current value, % change vs last month, and % change vs last year — enabling drill-down insight without page navigation
 
-## HR Analytics Dashboard — PT. Maju Bersama Tbk.
+## HR Analytics Dashboard
 Overview
 ![Dashboard Overview](HR_Dashboard/HR-1.webp)
 ![Dashboard Overview](HR_Dashboard/HR-2.webp)
@@ -66,7 +69,39 @@ Data Highlights
 - Average monthly salary: $6,503 with 15.21% annual salary hike
 - High-risk attrition employees identified: 28 employees flagged for priority HR intervention
 
-# Portofoilo 2025
+## Marketing Analytics Dashboard
+
+![Dashboard Overview](Marketing_Dashboard/Marketing-1.png)
+![Dashboard Overview](Marketing_Dashboard/Marketing-2.png)
+![Dashboard Overview](Marketing_Dashboard/Marketing-3.png)
+![Dashboard Overview](Marketing_Dashboard/Marketing-4.png)
+
+Multi-page Power BI Marketing & Customer Analytics dashboard built from customer purchase behavior data of 366 active customer bases.
+Covers 4 analytical sections: Overview, Segmentation, Campaign, and Product.
+
+Key Features
+
+- **Dynamic Customer Cohort Filters:** Interactive slicers for Years (2024–2030), Customer Risk Segments (At Risk, Champions, Lost, Promising), and Education Levels (2n Cycle, Basic, Graduation, Master, PhD).
+- **Embedded Automated Insights:** Bottom status bar generating real-time text summaries based on updated date context.
+- **Cross-Tab Top Navigation:** Top menu buttons for seamless switching between the 4 analytics pages (Overview, Segmentation, Campaign, Product).
+
+Dashboard Pages
+
+- **Overview** — High-level performance cards (Total Spending, Avg Income, Avg Recency, Campaign Rate, Complain Rate), Purchase Channel Mix comparison, Customer Tenure Distribution, Spending by Product Category pie chart, and Income vs Spending scatter matrix.
+- **Segmentation** — Customer demographics analysis including Education level breakdown, Marital Status ratio, Household Type vs Avg Spend analysis, Web Visits vs Web Purchases behavior, and Product Sales distribution across Age Groups.
+- **Campaign** — Detailed marketing response metrics featuring Acceptance Rate waterfall chart per campaign, Overall Campaign Score gauge, Total Spending by Responder, Response rate by Recency trend line, and campaign response profile across Income, Household, Age, and Education segments.
+- **Product** — Detailed inventory and sales breakdown including Spending per Product by Age Group bar chart, Store vs Web vs Catalog channel purchase trends, Customer Value Matrix, Gold Product Spend Tier distribution, and core unit economics metrics (Z-Revenue, Z-Cost Contact, Net ROI).
+
+Data Highlights & Key Insights
+
+- **Overall Performance (2028 Cohort):** Total spending reached $7M (+9.88% vs prev) with an active base of 366 customers, a minimal complain rate of 0.82% (-50.1%), and an average household income of $618K (+2.5% vs prev).
+- **Core Product Champion:** Wines account for the largest share of product spending (50% of total product spending), with the highest concentration observed in the 45–54 age group category.
+- **Household Spending Power:** Households with a mixed family composition spend $844 on average—4.2x more than households with kids only ($198 avg spend).
+- **Campaign Effectiveness:** Campaign 4 (Cmp4) is the best-performing marketing campaign with a 44.63% acceptance rate (followed closely by Cmp3 and Cmp5). Customers who responded to campaigns spent 4.0x more ($6M) than non-responders ($39M total base but lower per capita spend).
+- **High-Value Target Segment:** High-income customers are 8.2x more likely to respond to marketing campaigns compared to low-income segments.
+- **Channel Preference Shift:** Web and Store purchases consistently dominate across all customer tiers (Mid, High, Low income), while Catalog purchases remain the lowest performing channel.
+
+# Portofolio 2025
 
 ## Google ADS (Google ADS)
 
