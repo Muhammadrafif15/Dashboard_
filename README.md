@@ -3,8 +3,9 @@
 ## Table of Content
 #### A.  [Portofolio 2026](#portofolio-2026)
   1. [Financial Performance Dashboard](#financial-performance-dashboard)
-  2. [HR Analytics Dashboard](#hr-analytics-dashboard)
-  3. [Marketing Analytics Dashboard](#marketing-analytics-dashboard)
+  2. [Financial Performance Dashboard UPDATE](#financial-performance-dashboard-power-bi-update)
+  3. [HR Analytics Dashboard](#hr-analytics-dashboard)
+  4. [Marketing Analytics Dashboard](#marketing-analytics-dashboard)
 #### B. [Portofolio 2025](#portofolio-2025)
   5. [Google ADS (Google ADS)](#google-ads-google-ads)
   6. [Pizza Sales Performance & Customer Insight Dashboard (Pizza Analyst)](#interactive-pizza-sales-performance--customer-insight-dashboard-pizza-analyst)
@@ -35,6 +36,257 @@ Dashboard Pages
 Tooltip Feature
 
 - Every visual includes custom tooltips surfacing contextual detail: current value, % change vs last month, and % change vs last year — enabling drill-down insight without page navigation
+
+## Financial Performance Dashboard (Power BI) UPDATE
+
+A three-page Power BI dashboard for finance: executive KPIs with health zones, budget vs actual tracking, and operating expense (OPEX) efficiency. It is built to answer three questions quickly: *How profitable are we? Are we hitting target? Are costs under control?*
+
+> **Data:** sample financial dataset (sales by segment, product and country, plus OPEX, budget and target tables). All figures are illustrative.
+
+![Executive Financial Summary](Financial_Dashboard/content/finance-dashboard-1.png)
+
+---
+
+### Contents
+
+- [Dashboard pages](#dashboard-pages)
+- [Data model](#data-model)
+- [Advanced DAX highlights](#advanced-dax-highlights)
+- [What changed in this revision](#what-changed-in-this-revision)
+- [Known limitations](#known-limitations)
+- [Tools](#tools)
+
+---
+
+### Dashboard pages
+
+| Page | What it answers | Main components |
+|---|---|---|
+| **Executive Financial Summary** | How profitable is the business, and is it healthy? | KPI cards with prior-year (PY) comparison: revenue, gross profit, OPEX, net profit. Ratio cards with health zones: gross margin, net profit margin, COGS ratio, OPEX ratio. Revenue vs net profit trend with margin line. "Per $1 of revenue" cost breakdown |
+| **Budget vs Actual Analysis** | Are we meeting target, and where do we miss it? | Actual, target, variance and % achievement with PY comparison. Gauge against target. Achievement by segment. Actual vs target by month, product and country. Achievement heatmap (product × country) |
+| **Operational Expense & Efficiency** | Are costs controlled and well distributed? | Total OPEX, OPEX ratio, most expensive department. Efficiency score and grade with its four components. Expenses vs budget by department, expenses by category, monthly expenses vs budget with OPEX ratio |
+
+**Interaction:** slicers for year, quarter, country, month, segment, product, department and category; quick-select buttons for high-profit year, high-profit quarter and high/low-profit country; custom report-page tooltips showing month-over-month or year-over-year change on hover; page menu with active-page highlight.
+
+| | |
+|---|---|
+| ![Budget vs Actual](Financial_Dashboard/content/finance-dashboard-2.png) | ![OPEX and Efficiency](Financial_Dashboard/content/finance-dashboard-3.png) |
+
+---
+
+### Data model
+Financial_Dashboard/content/finance-dashboard-relasi-table.png)
+
+- **Fact tables:** `sales` (sales, COGS, discounts, gross sales) and `operasional` (operating expenses).
+- **Plan tables:** `target` (sales targets by month, product and country) and `anggaranOPEX` (OPEX budget by department and month).
+- **Dimension and helper tables:** `_DATE` (shared calendar with calculated profit-category columns), `Scenario Table` and `Slicer_Rentang` (helper tables for slicer logic).
+
+---
+
+### Advanced DAX highlights
+ 
+Status labels, comparison periods, health thresholds and the efficiency grade are all calculated in DAX, so every card updates with the slicers and explains itself.
+ 
+| Technique | Where it is used |
+|---|---|
+| `ISFILTERED` to detect the active filter context | Switching comparison period and thresholds between quarter and year |
+| `SWITCH ( TRUE (), ... )` | Health zones, period labels, letter grades |
+| Variables (`VAR` / `RETURN`) | Readable intermediate values in every status measure |
+| `DIVIDE` with `ABS` | Growth that stays valid when the prior-period profit is zero or negative |
+| `FORMAT` + `UNICHAR` | Ready-to-display text KPI, for example "Up 282% ▲ vs Last Year ($2.72M)" |
+| Calculated columns on `_DATE` | `Kategori Profit Tahun` and `Kategori Profit Quarter` for the high-profit quick-select buttons |
+| Weighted composite score | Efficiency score and letter grade |
+ 
+![DAX behind the Executive Financial Summary](Financial_Dashboard/content/finance-dashboard-1-advance-dax.png)
+ 
+#### 1. Dynamic period comparison label: `Status Profit`
+ 
+Detects whether a quarter or a year is in context (including the high-profit quarter and year selections), returns blank when no period is selected, and builds the full KPI text: direction, percentage, arrow, comparison period and the previous value in $M. Growth is divided by `ABS` of the previous value so a negative prior-period profit does not flip the sign, and edge cases return a clear message ("No profit recorded", "No prior data") instead of an error.
+ 
+```DAX
+Status Profit =
+VAR _IsQuarterFiltered =
+    ISFILTERED ( '_DATE'[Quarter] ) || ISFILTERED ( '_DATE'[Kategori Profit Quarter] )
+VAR _IsYearFiltered =
+    ISFILTERED ( '_DATE'[Year] ) || ISFILTERED ( '_DATE'[Kategori Profit Tahun] )
+VAR _Filtered = _IsQuarterFiltered || _IsYearFiltered
+RETURN
+IF (
+    NOT ( _Filtered ),
+    BLANK (),
+    VAR _CurrentProfit = [Net Profit]
+    VAR _PrevProfit    = [Previous Period Profit]
+    VAR _Growth        = DIVIDE ( _CurrentProfit - _PrevProfit, ABS ( _PrevProfit ) )
+    VAR _PeriodLabel   =
+        SWITCH ( TRUE (),
+            _IsQuarterFiltered, "vs Last Quarter",
+            _IsYearFiltered,    "vs Last Year",
+            "vs Last Year" )
+    VAR _PrevFormatted = "$" & FORMAT ( _PrevProfit / 1000000, "#,##0.00" ) & "M"
+    RETURN
+        IF (
+            ISBLANK ( _CurrentProfit ) || _CurrentProfit = 0,
+            "No profit recorded",
+            IF (
+                ISBLANK ( _PrevProfit ) || _PrevProfit = 0,
+                "No prior data",
+                VAR _Icon = IF ( _Growth >= 0, "▲", "▼" )
+                VAR _Text = IF ( _Growth >= 0, "Up ", "Down " )
+                RETURN
+                    _Text & FORMAT ( ABS ( _Growth ), "0%" ) & " " & _Icon & UNICHAR ( 10 )
+                        & _PeriodLabel & " (" & _PrevFormatted & ")"
+            )
+        )
+)
+```
+ 
+#### 2. Health zones with thresholds that follow the filter: `Net Profit Status`
+ 
+The same margin is judged against different limits depending on the period: stricter yearly limits when no quarter is selected, and quarterly limits when a quarter is filtered.
+ 
+```DAX
+Net Profit Status =
+VAR _NPM = [Net Profit Margin]
+VAR _IsQuarterFiltered = ISFILTERED ( '_DATE'[Quarter] )
+RETURN
+IF (
+    _IsQuarterFiltered,
+    SWITCH ( TRUE (),
+        _NPM >= 0.08, "● Healthy Zone",
+        _NPM >= 0.04, "● Watch Zone",
+        "● Danger Zone" ),
+    SWITCH ( TRUE (),
+        _NPM >= 0.10, "● Healthy Zone",
+        _NPM >= 0.05, "● Watch Zone",
+        "● Danger Zone" )
+)
+```
+ 
+#### 3. Threshold hint that changes with the status: `COGS Status Detail`
+ 
+The status is calculated internally first, then the hint text under the card depends on it: a healthy ratio shows only the danger limit, a "watch" ratio shows both limits, and a danger ratio shows the target needed to get back to healthy. Quarterly and yearly filters use different limits.
+ 
+```DAX
+COGS Status Detail =
+VAR _COGS = [COGS Ratio]
+VAR _IsQuarterFiltered = ISFILTERED ( '_DATE'[Quarter] )
+-- Internal status (quarterly vs yearly thresholds)
+VAR _Status =
+    IF (
+        _IsQuarterFiltered,
+        SWITCH ( TRUE (),
+            _COGS < 0.83,  "Healthy",
+            _COGS <= 0.89, "Watch",
+            "Danger" ),
+        SWITCH ( TRUE (),
+            _COGS < 0.80,  "Healthy",
+            _COGS <= 0.87, "Watch",
+            "Danger" )
+    )
+RETURN
+IF (
+    _IsQuarterFiltered,
+    -- Quarterly detail
+    SWITCH ( _Status,
+        "Healthy", "Danger: >= 90%",
+        "Watch",   "Healthy: < 83% | Danger: >= 90%",
+        "Danger",  "Target Healthy: < 83%" ),
+    -- Yearly detail
+    SWITCH ( _Status,
+        "Healthy", "Danger: >= 88%",
+        "Watch",   "Healthy: < 80% | Danger: >= 88%",
+        "Danger",  "Target Healthy: < 80%" )
+)
+```
+ 
+#### 4. Composite efficiency score and grade
+ 
+Four component scores (OPEX, cost stability, department balance, budget adherence) are combined with an explicit, easy-to-change weight and converted into a letter grade. In the dashboard the components score 97, 90, 83 and 35, which gives 76/100 and a grade of **B+**. The weakest component (cost stability) is highlighted so the grade is actionable rather than just a number.
+ 
+```DAX
+Efficiency Score =
+VAR _Weight = 0.25
+RETURN
+    ( [OPEX Score] * _Weight )
+        + ( [Cost Stability Score] * _Weight )
+        + ( [Dept Balance Score] * _Weight )
+        + ( [Budget Adherence Score] * _Weight )
+ 
+Efficiency Score Grade =
+VAR _Score = [Efficiency Score]
+RETURN
+    SWITCH ( TRUE (),
+        _Score >= 90, "A",
+        _Score >= 80, "A-",
+        _Score >= 75, "B+",
+        _Score >= 70, "B",
+        _Score >= 60, "C",
+        "D" )
+```
+ 
+![DAX behind the efficiency score](Financial_Dashboard/content/finance-dashboard-3-advance-dax.png)
+ 
+> Snippets are simplified: variable names are in English and separators are standardised. Measure and column names follow the model and may differ slightly from the .pbix.
+ 
+**Reconciliation checks used while validating:**
+ 
+- Gross profit − OPEX = net profit (≈ $13.0M − $2.65M ≈ $10.4M; PY: $3.88M − $1.16M = $2.72M).
+- Net margin 11.23% matches "Profit $0.11 per $1 of revenue" on the same page.
+- Segment actuals add up to total actual sales ($92.3M).
+- OPEX by category adds up to total OPEX ($2.65M); revenue, OPEX and OPEX ratio are identical on every page.
+- Efficiency score equals the average of its four components (97, 90, 83, 35 → 76).
+---
+
+### What changed in this revision
+
+#### 1. Metric logic
+
+| Area | Before | After |
+|---|---|---|
+| **Net profit margin** | Showed **14.10%**, identical to gross margin (calculated from gross profit) | **11.23%** = net profit ÷ revenue, consistent with $0.11 per $1 |
+| **OPEX vs last year** | "Down 327%" in green, although OPEX rose from $1.16M to $2.65M | "**Up 127%**" in red |
+| **Government segment** | Showed "--" and 0% achievement, hiding about $39M of sales | **$39.4M, 98%** achievement |
+| **Segment cards** | Typo "Goverment" | Fixed; segment actuals now add up to $92.3M |
+| **Monthly tooltip (Budget vs Actual)** | Actual and target comparisons swapped between rows (for example, actual compared with last month's target) | Each row compares with its own prior-month value |
+| **Variance KPI** | "Up 839%" shown in red even though exceeding target is favourable | Green |
+| **Expense tooltip (department)** | Month-level values compared with a full-year total | Department tooltips compare like with like (expenses and budget vs last year); the monthly tooltip that used the wrong base was removed |
+| **Avg 3-month delta** | Increase in a cost shown in green | Cost increases shown in red, decreases in green |
+
+#### 2. Charts
+
+| Area | Before | After |
+|---|---|---|
+| **Budget gauge** | Maximum $184.62M (2× actual), so the arc looked half-empty although target was exceeded | Maximum **$104M** (150% of target) |
+| **Achievement line** | Connected products and countries with a line, implying a trend | Removed; plain bars with target comparison |
+| **Rolling average** | 3-month rolling average plotted across departments | Removed from the department chart |
+| **OPEX chart** | Titled "Expenses and OPEX Ratio" but showed a rolling average on an unlabeled axis | Shows **OPEX ratio** with a labeled axis (0–5%) and bars on a visible $0–$0.4M axis |
+| **Margin trend axis** | Started at 10%, exaggerating swings | Starts at 0% |
+| **Achievement heatmap** | Orange scale, inconsistent with the blue theme | Blue scale |
+
+#### 3. Layout and labels
+
+| Area | Before | After |
+|---|---|---|
+| **KPI rows** | Second row (YTD actual, annual target, sales gap) repeated the first | Duplicate row removed, charts moved up |
+| **Menu** | No indication of the current page | Active page highlighted |
+| **Labels** | "Categori", "Departement" | Corrected to "Category" and "Department" |
+| **Health zone colours** | "Healthy" shown in the same amber as "Watch" on one card | Healthy shown in green |
+| **Tooltip formatting** | Mixed units ($7M, $6.149M, "$.13M", "($M)") | Consistent currency format |
+| **Branding** | Placeholder logo text | Placeholder text removed |
+
+---
+
+### Known limitations
+
+- **Sample data.** Prior-year comparisons are large (for example, revenue +249%) because the prior-year total in the sample is much smaller; treat them as illustrative.
+- **June target** is unusually low ($3.37M), which produces a ~283% achievement spike for that month.
+- **December expenses** are very low in the sample data, so the last bar looks almost empty.
+
+---
+
+### Tools
+
+Power BI Desktop, DAX, Power Query, custom report-page tooltips, bookmarks and buttons.
 
 ## HR Analytics Dashboard
 Overview
